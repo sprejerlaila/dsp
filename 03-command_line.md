@@ -20,17 +20,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > cd: go to a directory
-> > man -k <search term>: looks in every manual pages for the search term
-> > touch: create blank file
-> > ls *.???: show every file with a 3 letter extension. *: zero or more characters. ?: one character
-> > chmode: change permissions.
-> > vi: view / edit file. 
-> > cat: view / concatenate files.
-> > head / tail: print first/last rows of a file (10 by default).
-> > sort: sorts a file
-> > wc: words count of a file
-> > sed: search and replace. s/search/replace/g
+> > 
+- cd: go to a directory
+- man -k <search term>: looks in every manual pages for the search term
+- touch: create blank file
+- ls *.???: show every file with a 3 letter extension. *: zero or more characters. ?: one character
+- chmode: change permissions.
+- vi: view / edit file. 
+- cat: view / concatenate files.
+- head / tail: print first/last rows of a file (10 by default).
+- sort: sorts a file
+- wc: words count of a file
+- sed: search and replace. s/search/replace/g
 
 ---
 
