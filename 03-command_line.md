@@ -46,13 +46,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > ls: lists all files in a directory
-> > ls -a: lists all files in a directory (even the hidden files)
-> > ls -l: displays the long format listing
-> > ls -lh: displays the long format listing with sizes in human readable format
-> > ls -lah: displays all filez with the long format listing with sizes in human readable format
-> > ls -t: sorts by modification time
-> > ls -Glp: do not print group names, and shows directories with /. 
+> > 
+- ls: lists all files in a directory
+- ls -a: lists all files in a directory (even the hidden files)
+- ls -l: displays the long format listing
+- ls -lh: displays the long format listing with sizes in human readable format
+- ls -lah: displays all filez with the long format listing with sizes in human readable format
+- ls -t: sorts by modification time
+- ls -Glp: do not print group names, and shows directories with /. 
 
 ---
 
@@ -60,11 +61,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > ls -d: displays only directories
-> > ls -R: displays subdirectories as well
-> > ls -m: displays the names as a comma separated list
-> > ls -f: interprets each name as a directory, not a file
-> > ls -S: sort by file size, largest first
+> > 
+- ls -d: displays only directories
+- ls -R: displays subdirectories as well
+- ls -m: displays the names as a comma separated list
+- ls -f: interprets each name as a directory, not a file
+- ls -S: sort by file size, largest first
 
 ---
 
@@ -72,7 +74,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > xargs converts inputs into arguments to execute a command. 
+> > 
+xargs converts inputs into arguments to execute a command. 
 echo 'folder1 folder2 folder3' | xargs mkdir --> creates three folders, folder1 folder2 and folder3
  
 
