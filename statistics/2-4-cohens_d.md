@@ -1,6 +1,7 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
 >> 
+'''
 import math\
 def CohenEffectSize(grup1, group2):\
   diff = group1.mean() - group2.mean()\
@@ -20,6 +21,6 @@ rest_lgt = rest.prglngth
 
 print('Difference in weight: ', CohenEffectSize(first_wgt, rest_wgt))\
 print('Difference in length: ', CohenEffectSize(first_lgt, rest_lgt))
-
+'''
 >> Difference in weight:  -0.06911825348820934\
 >> Difference in length:  -0.03131178583370273
