@@ -4,7 +4,6 @@
 ```
 import brfss
 import scipy
-import scipy
 def BlueMan(maxh, minh):    
     males = df[df.sex == 1]
     mean = males.htm3.mean()
