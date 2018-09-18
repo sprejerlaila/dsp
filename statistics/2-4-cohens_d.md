@@ -9,7 +9,7 @@ def CohenEffectSize(grup1, group2):\
   n1,n2 = len(group1), len(group2)\
   pooled_var = (n1*var1 = n2*var2) / (n1+n2)\
   d = diff / math.sqrt(pooled_var)\
-  return d\
+  return d
 
 first_wgt = first.totalwgt_lb\
 first_lgt = first.prglngth
