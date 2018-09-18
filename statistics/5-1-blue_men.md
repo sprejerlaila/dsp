@@ -1,6 +1,7 @@
 [Think Stats Chapter 5 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2006.html#toc50) (blue men)
 
 >> 
+```
 import brfss
 import scipy
 import scipy
@@ -13,5 +14,6 @@ def BlueMan(maxh, minh):
     dif = high - low
     return di
 
->> BlueMan(185.42,177.8)
+BlueMan(185.42,177.8)
+```
 >> 0.3432308764365409
